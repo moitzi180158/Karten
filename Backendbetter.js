@@ -71,3 +71,8 @@ function drawCard() {
 function getWorkout(card) {
     return workouts[card];
 }
+
+    if("serviceWorker" in navigator)
+    {
+        navigator.serviceWorker.register("./sw.js");
+    }

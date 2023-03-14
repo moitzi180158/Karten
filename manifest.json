@@ -1,0 +1,25 @@
+{
+    "name": "Workout mit Karten",
+    "short_name": "Tolles Karten Workout :)",
+    "description": "A Simple Wokout with Cards App.",
+    "scope": ".",
+    "start_url": "./index.html",
+    "prefer_related_applications": true,
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "./Pictrues/snake.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "./Pictrues/minesweeper.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      }
+    ]
+  }

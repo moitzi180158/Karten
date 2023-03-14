@@ -4,7 +4,7 @@ const cacheName = "Karten"
 const assets = [
     "/",
     "/index.html",
-    "/script.js"
+    "/Backendbetter.js"
 ]
 
 .map(url => currentPath + url)
